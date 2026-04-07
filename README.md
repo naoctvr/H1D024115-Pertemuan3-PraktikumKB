@@ -1,12 +1,12 @@
-#H1D024115 – Pertemuan 3 Praktikum KB
+# H1D024115 – Pertemuan 3 Praktikum KB
 
 Dokumen ini berisi pengumpulan tugas praktikum Kecerdasan Buatan pada pertemuan ke-3.
 
-Implementasi Logika Fuzzy dengan Library scikit-fuzzy
+# Implementasi Logika Fuzzy dengan Library scikit-fuzzy
 
 Program yang dibuat menerapkan Fuzzy Inference System (FIS) menggunakan metode Mamdani untuk dua studi kasus yang berbeda.
 
-1. Studi Kasus 1 – Penentuan Stok Makanan (main.py)
+# 1. Studi Kasus 1 – Penentuan Stok Makanan (main.py)
 
 Program ini bertujuan untuk menentukan jumlah stok makanan yang optimal berdasarkan empat variabel input menggunakan logika fuzzy.
 
@@ -29,7 +29,8 @@ Profit = Rp 3.500.000
 e. Membership Function
 Sebagian besar menggunakan fungsi segitiga (trimf)
 Untuk kategori Profit “Banyak” menggunakan fungsi trapesium (trapmf)
-2. Studi Kasus 2 – Kepuasan Pelayanan Masyarakat (studi2.py)
+
+# 2. Studi Kasus 2 – Kepuasan Pelayanan Masyarakat (studi2.py)
 
 Program ini digunakan untuk menghitung tingkat kepuasan masyarakat terhadap pelayanan berdasarkan empat variabel input.
 
@@ -54,7 +55,7 @@ e. Membership Function
 Trapmf digunakan untuk kategori “Tidak” dan “Memuaskan”
 Trimf digunakan untuk kategori “Cukup”
 Output seluruhnya menggunakan trapmf
-3. Library yang Digunakan
+# 3. Library yang Digunakan
 a. numpy
 
 Digunakan untuk membuat array numerik sebagai dasar semesta pembicaraan pada variabel fuzzy.
@@ -72,7 +73,7 @@ Pembuatan membership function (trimf, trapmf)
 Penyusunan aturan fuzzy
 Pembuatan sistem kontrol dan simulasi
 Proses perhitungan output (defuzzifikasi)
-4. Cara Menjalankan Program
+# 4. Cara Menjalankan Program
 
 Install terlebih dahulu library yang dibutuhkan:
 
